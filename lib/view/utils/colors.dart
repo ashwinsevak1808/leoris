@@ -17,9 +17,12 @@ class SEColors {
   static const background = Color(0xff060D15);
   static const black = Color(0xff101213);
   static const overlay = Color.fromARGB(82, 16, 18, 19);
+  static const lighBluePrime = Color.fromARGB(198, 88, 133, 255);
+  static const facebookColor = Color(0xff2B5D95);
+  static const facebookColorPrime = Color.fromARGB(146, 95, 163, 241);
+  static const lightRedPrime = Color.fromARGB(159, 255, 83, 103);
 
 // Not Yet Final
-  static const prime = Color(0xff111baf);
 
   static const anti_splash_white = Color(0xffbbc1e2);
   static const outer_space = Color(0xffe9ecf9);

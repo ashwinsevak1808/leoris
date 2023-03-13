@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:leories/view/screens/connection.dart';
+
+import 'package:leories/view/utils/routes.dart';
 import 'package:leories/view/utils/theme.dart';
 import 'package:leories/viewmodal/provider/search_bar_provider.dart';
 import 'package:provider/provider.dart';
@@ -29,7 +30,8 @@ class MainApp extends StatelessWidget {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
           theme: notify.darkTheme ? MainTheme.darkTheme : MainTheme.lightTheme,
-          home: const WidgetConnection(),
+          initialRoute: '/',
+          routes: Routes.routes,
         );
       }),
     );

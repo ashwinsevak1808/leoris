@@ -42,7 +42,7 @@ class MainTheme {
       displaySmall: TextStyle(color: SEColors.white, fontFamily: 'Open Sans', fontSize: 12.0, fontWeight: FontWeight.w100, wordSpacing: -0.5),
 
       headlineLarge: TextStyle(color: SEColors.white, fontFamily: 'Open Sans', fontSize: 28.0, wordSpacing: 1.0, fontWeight: FontWeight.w500),
-
+      headlineMedium: TextStyle(color: SEColors.white, fontFamily: 'Open Sans', fontSize: 16.0, wordSpacing: 1.0, fontWeight: FontWeight.w500),
       bodySmall: TextStyle(color: SEColors.white, fontFamily: 'Open Sans', fontSize: 13.0, wordSpacing: 1, fontWeight: FontWeight.w100),
 
       titleSmall: TextStyle(color: SEColors.white, fontFamily: 'Open Sans', fontSize: 14.0, wordSpacing: 1, fontWeight: FontWeight.w500),
